@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shawn Thompson">
+    <meta name="description" content="Portfolio Website">
+    <title>Shawn Thompson | 2024 Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="header_section">
+    <div class="container">
+        <nav>
+            <img src="images/LogoNew.png" class="logo" alt="Shawn Thompson's Logo">
+            <ul>
+                <li><a href="#about_section">About</a></li>
+                <li><a href="#projects_section">Projects</a></li>
+                <li><a href="#contact_section">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Shawn Thompson</span></h1>
+            <h2 class="typeout">and I'm passionate about Web Development.</h2>
+            <p>I embarked on my journey towards a Bachelor of Computer Science degree at Thomas College in 2022. Since then, I've dedicated myself to numerous impactful front-end development projects and a handful of software development projects.</p>
+        </div>
+    </div>
+</div>
+<div id="about_section">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Self.jpg" alt="Photo of Shawn Thompson">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a current Computer Science student at Thomas College in Waterville, Maine. As of 2024, I'm currently in my fourth semester of a six semester program to get my bachelors degree. Throughout this time, I've maintained a GPA of between a 3.85-3.90 each semester whilst additionally working on a variety of projects on the side in order to gain more technical knowledge in website development (mainly front-end) and software development.</p>
+                <br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                    <p class="tab-links" onclick="openTab('courses')">Relevant Courses</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML + CSS + JavaScript</span><br>Used in designing and implementing web applications, HTML for structuring content, CSS for styling it, and JavaScript for adding interactivity. I've used these in creating this website, as well as with in my other web projects!</li>
+                        <li><span>Node.js</span><br>A runtime that allows JavaScript to be used for server-side development, increasing the scalability of applications. I've primarily used it in architecting and implementing a Discord bot, capitalizing on its event-driven capabilities for API integration.</li>
+                        <li><span>Git</span><br>A version control system that enables collaborative software development and tracking changes.</li>
+                        <li><span>(my)SQL</span><br>A relational database management system used for efficient data storage and retrieval in web applications.</li>
+                        <li><span>Python</span><br>A versatile programming language that I've used for 2 to 3 years now whilst learning data structures and algorithms.</li>
+                        <li><span>C#.NET</span><br>A robust framework for building Windows applications, web services, and more. I've used it in developing many object-oriented programs at Thomas College in a C#/.NET OOP course, one of which was a GUI card game.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Thomas College: Computer Science (BS)</span><br><i>August 2022 - May 2025 (Expected)</i><br>Cumm. GPA: 3.87/4.0</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="courses">
+                    <ul>
+                        <li><span>Data Structures & Algorithms</span><br>Received Grade: <i>Currently Taking</i></li>
+                        <li><span>Distributed Systems & Cloud Computing</span><br>Received Grade: <i>Currently Taking</i></li>
+                        <li><span>Computer Design & Architecture</span><br>Received Grade: <i>A-</i></li>
+                        <li><span>C#.NET Object-Oriented Programming</span><br>Received Grade: <i>A-</i></li>
+                        <li><span>Data Communications</span><br>Received Grade: <i>A-</i></li>
+                        <li><span>Databases</span><br>Received Grade: <i>Currently Taking</i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="projects_section">
+    <div class="container">
+        <h1 class="sub-title">My Projects | GitHub Repositories</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/MAITS.png" alt="Image of Morse Income Tax Office Business">
+                <div class="layer">
+                    <h3>Morse Accounting & Income Tax Service Website</h3>
+                    <p>Developed and launched a responsive and user-friendly website from conception to deployment using HTML, CSS, and JavaScript.</p>
+                    <a href="https://github.com/shawnMthompson/MAITS-Website"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Zemzim.png" alt="Image of Discord Bot: Zemzim">
+                <div class="layer">
+                    <h3>Zemzim | Discord Bot</h3>
+                    <p>Utilized JavaScript and Node.js to architect and implement a bot, capitalizing on its asynchronous and event-driven capabilities for efficient Discord API integration.</p>
+                    <a href="https://github.com/shawnMthompson/zemzim-discord-bot"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact_section">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>sthompson7720@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/shawnMthompson"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shawnmthompson"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="documents/Resume.pdf" download class="btn">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <h1>This contact form isn't yet implemented.</h1>
+                <br>
+                <h1>If you would like to get into contact with me, please seek my details on the left.</h1>
+                <br>
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 Shawn Thompson</p>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/8b7144858a.js" crossorigin="anonymous"></script>
+</body>
+</html>
