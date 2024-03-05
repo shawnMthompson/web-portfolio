@@ -19,7 +19,7 @@ Technologies Used:
 
 Usage:
 1. Clone the repository to your local machine
-2. Open the 'index.html' file in a HTML5-supported web browser to view the portfolio
+2. Open the 'index.html' file in a HTML5-supported web browser to view the portfolio. May require a live server extension or any other self-hosting solution.
 
 Credits:
 Developer: Shawn Thompson
@@ -29,4 +29,4 @@ License:
 This project is licensed under the MIT License
 
 Note:
-Currently (2/16/2024), external links in the project section are placeholders and need to be updated with actual project links once they are fully commited after development.
+Currently (3/4/2024), the contact form is not yet implemented approprately. Will use PHP to implement it by Q3 2024.
