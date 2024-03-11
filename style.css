@@ -145,6 +145,7 @@ h2.typeout{
   	font-weight: 500;
   	cursor: pointer;
   	position: relative;
+	caret-color: transparent;
 }
 .tab-links::after{
   	content: '';
@@ -164,7 +165,7 @@ h2.typeout{
 }
 .tab-contents ul li{
   	list-style: none;
-  	margin: 5px 0;
+  	margin: 15px 0;
 }
 .tab-contents ul li span{
   	font-size: 14px;
