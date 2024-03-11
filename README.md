@@ -1,6 +1,5 @@
 # web-portfolio
-[Portfolio](https://shawnmthompson.github.io/web-portfolio/)
-This is a web portfolio that I designed and developed, showcasing my skills, projects, and contact information. This portfolio was created using HTML, CSS, and JavaScript.
+This is a [web portfolio](https://shawnmthompson.github.io/web-portfolio/) that I designed and developed, showcasing my skills, projects, and contact information. This portfolio was created using HTML, CSS, and JavaScript.
 
 # README
 This repository contains the source code for my web portfolio.
