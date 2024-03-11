@@ -43,6 +43,7 @@ nav ul li a{
   	text-decoration: none;
   	font-size: 18px;
   	position: relative;
+	caret-color: transparent;
 }
 nav ul li a::after{
   	content: '';
