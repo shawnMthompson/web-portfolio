@@ -99,11 +99,11 @@ h2.typeout{
     typing 3.5s steps(144, end) forwards,
     blink-caret 1.2s step-end infinite;
 }
-@keyframes typing {
+@keyframes typing{
   	from { width: 0% }
   	to { width: 100%; }
 }
-@keyframes blink-caret {
+@keyframes blink-caret{
   	from, to { border-color: transparent }
   	50% { border-color: rgb(255, 255, 255); }
 }
