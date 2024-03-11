@@ -261,6 +261,7 @@ h2.typeout{
 	color: #ababab;
 	display: inline-block;
 	transition: transform 0.5s;
+	caret-color: transparent;
 }
 .social-icons a:hover{
 	color: #66adcb;
@@ -275,6 +276,7 @@ h2.typeout{
 	padding: 14px 50px;
 	border-radius: 6px;
 	color: #fff;
+	caret-color: transparent;
 }
 .contact-right form{
 	width: 100%;
@@ -295,6 +297,7 @@ form .btn{
 	font-size: 18px;
 	margin-top: 20px;
 	cursor: pointer;
+	caret-color: transparent;
 }
 .copyright{
 	width: 100%;
