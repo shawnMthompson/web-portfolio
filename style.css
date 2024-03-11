@@ -170,6 +170,7 @@ h2.typeout{
 .tab-contents ul li span{
   	font-size: 14px;
   	color: #66adcb;
+	font-weight: bold;
 }
 .tab-contents{
   	display: none;
