@@ -9,7 +9,7 @@ This repository contains the source code for my web portfolio.
 * Created a dynamic typing animation effect via JavaScript to simulate the typing of text
 * Implemented tabbed content sections dynamically using JavaScript to organize information, allowing the user to switch between tabs interactively without page reloads.
 * Incorporated interactive elements within project cards, such as hover effects or clickable links, to dynamically reveal project details or navigate to project demos/repositories.
-* Integrated social media icons with interactive hover effects dynamically, such as color changes and animations, to encourage user interaction. Sourced from [fontawesome.com(fontawesome.com)].
+* Integrated social media icons with interactive hover effects dynamically, such as color changes and animations, to encourage user interaction. Sourced from [fontawesome](fontawesome.com).
 * Designed the portfolio with a responsive layout that adapts dynamically to various screen sizes and orientations.
 
 # Technologies Used:
