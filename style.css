@@ -179,18 +179,18 @@ h2.typeout{
 .tab-contents.active-tab{
   	display: block;
 }
-.work-list{
+.project-list{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 40px;
 	margin-top: 50px;
 }
-.work{
+.project{
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
 }
-.work img{
+.project img{
 	width: 100%;
 	border-radius: 10px;
 	display: block;
@@ -229,11 +229,11 @@ h2.typeout{
 	border-radius: 50%;
 	text-align: center;
 }
-.work:hover img{
+.project:hover img{
 	transform: scale(1.1);
 
 }
-.work:hover .layer{
+.project:hover .layer{
 	height: 100%
 }
 .contact-left{
