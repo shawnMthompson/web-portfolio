@@ -18,7 +18,7 @@ This repository contains the source code for my web portfolio.
 * JavaScript
 
 # Usage:
-1. Clone the repository to your local machine
+1. Clone the repository to your local machine.
 2. Open the 'index.html' file in a HTML5-supported web browser to view the portfolio. May require a live server extension or any other self-hosting solution.
 
 # Credits:
@@ -26,7 +26,7 @@ Developer: Shawn Thompson
 Contact: sthompson7720@gmail.com
 
 # License:
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
 
 # Note:
 Currently (3/4/2024), the contact form is not yet implemented approprately. Will use PHP to implement it by Q3 2024.
