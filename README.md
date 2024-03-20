@@ -4,6 +4,9 @@ This is a [web portfolio](https://shawnmthompson.github.io/web-portfolio/) that 
 # README
 This repository contains the source code for my web portfolio.
 
+# Known Issue(s):
+* Typeout Animation works inconsistently across varying devices of different screen sizes and ratios. I will re-do it so that it is inherently more responsive.
+
 # Features:
 * Navigation bar for easy navigation between sections.
 * Created a dynamic typing animation effect via JavaScript to simulate the typing of text
