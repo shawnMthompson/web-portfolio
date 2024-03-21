@@ -88,10 +88,19 @@ nav ul li a:hover::after{
   	font-size: 25px;
   	margin-top: 1px;
 }
+.container-typeout{
+	display: inline-block;
+}
 h2.typeout{
+	border-right: 4px solid;
 	white-space: nowrap;
 	overflow: hidden;
-	animation: typing 4s;
+	animation: 
+		typing 3s,
+		cursor 0.4s step-end infinite alternate
+}
+@keyframes cursor{
+	50% { border-color: transparent}
 }
 @keyframes typing{
 	from {width: 0% }
@@ -307,6 +316,9 @@ form .btn{
 	}
 	.header-text h2{
 		display: none;
+	}
+	.header-text p{
+		margin-top: -25px;
 	}
 	.sub-title{
 		font-size: 40px;
