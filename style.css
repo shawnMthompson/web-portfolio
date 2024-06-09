@@ -115,6 +115,10 @@ h2.typeout {
   font-size: 18px;
   margin-top: 15px;
 }
+.header-text h1{
+  	font-size: 50px;
+  	margin-top: 20px;
+}
 #about_section {
   padding: 80px 0;
   color: #bcbcbc;
