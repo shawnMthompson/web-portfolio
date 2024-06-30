@@ -1,5 +1,5 @@
 # web-portfolio
-This is a [web portfolio](https://shawnmthompson.github.io/web-portfolio/) that I designed and developed, showcasing my skills, projects, and contact information. This portfolio was created using HTML, CSS, and JavaScript.
+This is my first [web portfolio](https://shawnmthompson.github.io/web-portfolio/) that I designed and developed, showcasing my skills, projects, and contact information. This portfolio was created using HTML, CSS, and some basic JavaScript.
 
 # README
 This repository contains the source code for my web portfolio.
@@ -29,6 +29,4 @@ Contact: sthompson7720@gmail.com
 This project is licensed under the MIT License.
 
 # Note:
-Currently (3/4/2024), the contact form is not yet implemented approprately. Will use PHP to implement it by Q3 2024.
-
-I intend to continuously develop and expand on this website as I improve and as I learn more technologies that I can incorporate into my web development process (e.g. React, Tailwind, PHP). I intend for these three technologies to be implemented into this website by the end of Q3 2024.
+Currently (3/4/2024), the contact form is not yet implemented appropriately; I intend to implement it at a later date.
